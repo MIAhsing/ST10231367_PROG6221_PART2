@@ -1,0 +1,15 @@
+The code now uses a List<List<object>> named mainList instead of the ArrayList. This change provides type safety and makes the code more modern and readable.
+
+A delegate variable recipeNotificationDelegate has been added to allow notifications when a recipe exceeds a certain calorie limit. 
+This delegate can be used to notify the user or perform any other desired action.
+
+The AddRecipe() method has been updated to include additional information for each ingredient, such as quantity, unit of measurement, calories, and food group. 
+It validates user input for the number of recipes, number of ingredients, and food group options to ensure valid data entry.
+
+The PrintRecipes() method now provides two options: printing recipes in the order they were added or printing recipes in alphabetical order by recipe name. 
+The recipes are displayed with detailed ingredient information, step details, and total calorie count. 
+If a recipe exceeds 300 calories, it triggers the NotifyRecipeExceedsCalories() method using the delegate to notify the user.
+
+These changes enhance the code's readability, maintainability, and user experience. 
+It provides better validation and more detailed information for each recipe, allowing users to add, scale, print, and remove recipes conveniently. 
+The introduction of delegates allows for extensibility by enabling notifications or custom actions when a recipe exceeds a specific calorie limit.

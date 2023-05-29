@@ -1,0 +1,55 @@
+Here are step-by-step instructions on how to work with this console application:
+
+1. Launch the Application: Run the compiled console application. You will see the welcome message along with the menu options displayed on the console.
+
+2. Choose an Option: The menu options will be numbered from 1 to 5. Enter the number corresponding to the action you want to perform and press Enter. Here is a description of each option:
+
+Option 1: Add a Recipe
+Option 2: Scale Recipe
+Option 3: Print Recipe
+Option 4: Remove All Stored Recipes
+Option 5: Exit
+
+3. Add a Recipe (Option 1):
+
+Select option 1 from the menu.
+Enter the number of recipes you want to add and press Enter.
+For each recipe, enter the recipe name and press Enter.
+Enter the number of ingredients you want to add to the recipe and press Enter.
+For each ingredient, enter the name, quantity, unit of measurement, number of calories, and food group. Follow the instructions provided for each input.
+After adding all the ingredients, enter the step details for the recipe. Enter '0' when you're done adding steps.
+Repeat the above steps for each recipe you want to add.
+
+4. Scale a Recipe (Option 2):
+
+Select option 2 from the menu.
+You will see a list of recipes available to scale. Enter the number corresponding to the recipe you want to scale and press Enter.
+Choose a scaling option by entering the corresponding number (1 for half, 2 for double, 3 for triple) and press Enter.
+The scaled recipe will be displayed, showing the updated quantities of ingredients and steps.
+
+5. Print Recipe (Option 3):
+
+Select option 3 from the menu.
+Choose the print option by entering the corresponding number (1 for order added, 2 for alphabetical order) and press Enter.
+The recipes will be printed on the console, displaying the recipe name, ingredients, steps, and total calories.
+
+6. Remove All Stored Recipes (Option 4):
+
+Select option 4 from the menu.
+All the stored recipes will be removed, and a confirmation message will be displayed.
+
+7. Exit (Option 5):
+
+Select option 5 from the menu.
+The program will terminate, and the console application will close.
+
+8. Notifications:
+
+If a recipe exceeds 300 calories, you will receive a notification message indicating the recipe name.
+
+9. Repeat Steps 2-7:
+
+After performing an action, the program will return to the main menu.
+You can choose another option by following the steps mentioned above.
+
+You can navigate through the menu options, add recipes, scale recipes, print recipes, remove all stored recipes, and exit the program as needed.
